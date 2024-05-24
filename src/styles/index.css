@@ -10,3 +10,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.hanger{
+    height: 100px;
+    width: 20px;
+    background-color: black;
+}
+.background{
+    height: 420px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10%;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(27, 219, 27);
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(245, 44, 44);
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(251, 255, 7);
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.iluminatedRed{
+    box-shadow: 0 0 50px 20px rgba(255, 0, 0, 0.642); 
+}
+.iluminatedYellow{
+    box-shadow: 0 0 50px 20px rgba(255, 255, 0, 0.7); 
+}
+.iluminatedGreen{
+    box-shadow: 0 0 50px 20px rgba(27, 196, 24, 0.733); 
+}
+
